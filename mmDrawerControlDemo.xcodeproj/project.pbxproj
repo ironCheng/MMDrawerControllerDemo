@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8C6E50B1D6E7AC2000BEF84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E50A1D6E7AC2000BEF84 /* main.m */; };
+		A8C6E50E1D6E7AC2000BEF84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E50D1D6E7AC2000BEF84 /* AppDelegate.m */; };
+		A8C6E5141D6E7AC2000BEF84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C6E5121D6E7AC2000BEF84 /* Main.storyboard */; };
+		A8C6E5161D6E7AC2000BEF84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C6E5151D6E7AC2000BEF84 /* Assets.xcassets */; };
+		A8C6E5191D6E7AC2000BEF84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C6E5171D6E7AC2000BEF84 /* LaunchScreen.storyboard */; };
+		A8C6E5241D6E7AC2000BEF84 /* mmDrawerControlDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E5231D6E7AC2000BEF84 /* mmDrawerControlDemoTests.m */; };
+		A8C6E5381D6E7B2C000BEF84 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E5301D6E7B2C000BEF84 /* MMDrawerBarButtonItem.m */; };
+		A8C6E5391D6E7B2C000BEF84 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E5321D6E7B2C000BEF84 /* MMDrawerController.m */; };
+		A8C6E53A1D6E7B2C000BEF84 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E5351D6E7B2C000BEF84 /* MMDrawerVisualState.m */; };
+		A8C6E53B1D6E7B2C000BEF84 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E5371D6E7B2C000BEF84 /* UIViewController+MMDrawerController.m */; };
+		A8C6E53E1D6E7DC2000BEF84 /* aViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6E53D1D6E7DC2000BEF84 /* aViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8C6E5201D6E7AC2000BEF84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C6E4FE1D6E7AC2000BEF84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C6E5051D6E7AC2000BEF84;
+			remoteInfo = mmDrawerControlDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8C6E5061D6E7AC2000BEF84 /* mmDrawerControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mmDrawerControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C6E50A1D6E7AC2000BEF84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8C6E50C1D6E7AC2000BEF84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8C6E50D1D6E7AC2000BEF84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8C6E5131D6E7AC2000BEF84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8C6E5151D6E7AC2000BEF84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8C6E5181D6E7AC2000BEF84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8C6E51A1D6E7AC2000BEF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C6E51F1D6E7AC2000BEF84 /* mmDrawerControlDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mmDrawerControlDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C6E5231D6E7AC2000BEF84 /* mmDrawerControlDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mmDrawerControlDemoTests.m; sourceTree = "<group>"; };
+		A8C6E5251D6E7AC2000BEF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C6E52F1D6E7B2C000BEF84 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerBarButtonItem.h; path = MMDrawerController/MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		A8C6E5301D6E7B2C000BEF84 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerBarButtonItem.m; path = MMDrawerController/MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		A8C6E5311D6E7B2C000BEF84 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerController.h; path = MMDrawerController/MMDrawerController.h; sourceTree = "<group>"; };
+		A8C6E5321D6E7B2C000BEF84 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerController.m; path = MMDrawerController/MMDrawerController.m; sourceTree = "<group>"; };
+		A8C6E5331D6E7B2C000BEF84 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MMDrawerController+Subclass.h"; path = "MMDrawerController/MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		A8C6E5341D6E7B2C000BEF84 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerVisualState.h; path = MMDrawerController/MMDrawerVisualState.h; sourceTree = "<group>"; };
+		A8C6E5351D6E7B2C000BEF84 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerVisualState.m; path = MMDrawerController/MMDrawerVisualState.m; sourceTree = "<group>"; };
+		A8C6E5361D6E7B2C000BEF84 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MMDrawerController.h"; path = "MMDrawerController/UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		A8C6E5371D6E7B2C000BEF84 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MMDrawerController.m"; path = "MMDrawerController/UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		A8C6E53C1D6E7DC2000BEF84 /* aViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aViewController.h; sourceTree = "<group>"; };
+		A8C6E53D1D6E7DC2000BEF84 /* aViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8C6E5031D6E7AC2000BEF84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C6E51C1D6E7AC2000BEF84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8C6E4FD1D6E7AC2000BEF84 = {
+			isa = PBXGroup;
+			children = (
+				A8C6E5081D6E7AC2000BEF84 /* mmDrawerControlDemo */,
+				A8C6E5221D6E7AC2000BEF84 /* mmDrawerControlDemoTests */,
+				A8C6E5071D6E7AC2000BEF84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8C6E5071D6E7AC2000BEF84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8C6E5061D6E7AC2000BEF84 /* mmDrawerControlDemo.app */,
+				A8C6E51F1D6E7AC2000BEF84 /* mmDrawerControlDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8C6E5081D6E7AC2000BEF84 /* mmDrawerControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A8C6E52E1D6E7B11000BEF84 /* MMDrawerController */,
+				A8C6E50C1D6E7AC2000BEF84 /* AppDelegate.h */,
+				A8C6E50D1D6E7AC2000BEF84 /* AppDelegate.m */,
+				A8C6E53C1D6E7DC2000BEF84 /* aViewController.h */,
+				A8C6E53D1D6E7DC2000BEF84 /* aViewController.m */,
+				A8C6E5121D6E7AC2000BEF84 /* Main.storyboard */,
+				A8C6E5151D6E7AC2000BEF84 /* Assets.xcassets */,
+				A8C6E5171D6E7AC2000BEF84 /* LaunchScreen.storyboard */,
+				A8C6E51A1D6E7AC2000BEF84 /* Info.plist */,
+				A8C6E5091D6E7AC2000BEF84 /* Supporting Files */,
+			);
+			path = mmDrawerControlDemo;
+			sourceTree = "<group>";
+		};
+		A8C6E5091D6E7AC2000BEF84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8C6E50A1D6E7AC2000BEF84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8C6E5221D6E7AC2000BEF84 /* mmDrawerControlDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8C6E5231D6E7AC2000BEF84 /* mmDrawerControlDemoTests.m */,
+				A8C6E5251D6E7AC2000BEF84 /* Info.plist */,
+			);
+			path = mmDrawerControlDemoTests;
+			sourceTree = "<group>";
+		};
+		A8C6E52E1D6E7B11000BEF84 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				A8C6E52F1D6E7B2C000BEF84 /* MMDrawerBarButtonItem.h */,
+				A8C6E5301D6E7B2C000BEF84 /* MMDrawerBarButtonItem.m */,
+				A8C6E5311D6E7B2C000BEF84 /* MMDrawerController.h */,
+				A8C6E5321D6E7B2C000BEF84 /* MMDrawerController.m */,
+				A8C6E5331D6E7B2C000BEF84 /* MMDrawerController+Subclass.h */,
+				A8C6E5341D6E7B2C000BEF84 /* MMDrawerVisualState.h */,
+				A8C6E5351D6E7B2C000BEF84 /* MMDrawerVisualState.m */,
+				A8C6E5361D6E7B2C000BEF84 /* UIViewController+MMDrawerController.h */,
+				A8C6E5371D6E7B2C000BEF84 /* UIViewController+MMDrawerController.m */,
+			);
+			name = MMDrawerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8C6E5051D6E7AC2000BEF84 /* mmDrawerControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C6E5281D6E7AC2000BEF84 /* Build configuration list for PBXNativeTarget "mmDrawerControlDemo" */;
+			buildPhases = (
+				A8C6E5021D6E7AC2000BEF84 /* Sources */,
+				A8C6E5031D6E7AC2000BEF84 /* Frameworks */,
+				A8C6E5041D6E7AC2000BEF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mmDrawerControlDemo;
+			productName = mmDrawerControlDemo;
+			productReference = A8C6E5061D6E7AC2000BEF84 /* mmDrawerControlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8C6E51E1D6E7AC2000BEF84 /* mmDrawerControlDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C6E52B1D6E7AC2000BEF84 /* Build configuration list for PBXNativeTarget "mmDrawerControlDemoTests" */;
+			buildPhases = (
+				A8C6E51B1D6E7AC2000BEF84 /* Sources */,
+				A8C6E51C1D6E7AC2000BEF84 /* Frameworks */,
+				A8C6E51D1D6E7AC2000BEF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8C6E5211D6E7AC2000BEF84 /* PBXTargetDependency */,
+			);
+			name = mmDrawerControlDemoTests;
+			productName = mmDrawerControlDemoTests;
+			productReference = A8C6E51F1D6E7AC2000BEF84 /* mmDrawerControlDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8C6E4FE1D6E7AC2000BEF84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "IDSBG-00";
+				TargetAttributes = {
+					A8C6E5051D6E7AC2000BEF84 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = Y46Y2F54T5;
+					};
+					A8C6E51E1D6E7AC2000BEF84 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A8C6E5051D6E7AC2000BEF84;
+					};
+				};
+			};
+			buildConfigurationList = A8C6E5011D6E7AC2000BEF84 /* Build configuration list for PBXProject "mmDrawerControlDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8C6E4FD1D6E7AC2000BEF84;
+			productRefGroup = A8C6E5071D6E7AC2000BEF84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8C6E5051D6E7AC2000BEF84 /* mmDrawerControlDemo */,
+				A8C6E51E1D6E7AC2000BEF84 /* mmDrawerControlDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8C6E5041D6E7AC2000BEF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C6E5191D6E7AC2000BEF84 /* LaunchScreen.storyboard in Resources */,
+				A8C6E5161D6E7AC2000BEF84 /* Assets.xcassets in Resources */,
+				A8C6E5141D6E7AC2000BEF84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C6E51D1D6E7AC2000BEF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8C6E5021D6E7AC2000BEF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C6E53A1D6E7B2C000BEF84 /* MMDrawerVisualState.m in Sources */,
+				A8C6E53B1D6E7B2C000BEF84 /* UIViewController+MMDrawerController.m in Sources */,
+				A8C6E5391D6E7B2C000BEF84 /* MMDrawerController.m in Sources */,
+				A8C6E53E1D6E7DC2000BEF84 /* aViewController.m in Sources */,
+				A8C6E5381D6E7B2C000BEF84 /* MMDrawerBarButtonItem.m in Sources */,
+				A8C6E50E1D6E7AC2000BEF84 /* AppDelegate.m in Sources */,
+				A8C6E50B1D6E7AC2000BEF84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C6E51B1D6E7AC2000BEF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C6E5241D6E7AC2000BEF84 /* mmDrawerControlDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8C6E5211D6E7AC2000BEF84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8C6E5051D6E7AC2000BEF84 /* mmDrawerControlDemo */;
+			targetProxy = A8C6E5201D6E7AC2000BEF84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8C6E5121D6E7AC2000BEF84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C6E5131D6E7AC2000BEF84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8C6E5171D6E7AC2000BEF84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C6E5181D6E7AC2000BEF84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8C6E5261D6E7AC2000BEF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8C6E5271D6E7AC2000BEF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8C6E5291D6E7AC2000BEF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = mmDrawerControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmDrawerControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8C6E52A1D6E7AC2000BEF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = mmDrawerControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmDrawerControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A8C6E52C1D6E7AC2000BEF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mmDrawerControlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmDrawerControlDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mmDrawerControlDemo.app/mmDrawerControlDemo";
+			};
+			name = Debug;
+		};
+		A8C6E52D1D6E7AC2000BEF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mmDrawerControlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmDrawerControlDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mmDrawerControlDemo.app/mmDrawerControlDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8C6E5011D6E7AC2000BEF84 /* Build configuration list for PBXProject "mmDrawerControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C6E5261D6E7AC2000BEF84 /* Debug */,
+				A8C6E5271D6E7AC2000BEF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C6E5281D6E7AC2000BEF84 /* Build configuration list for PBXNativeTarget "mmDrawerControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C6E5291D6E7AC2000BEF84 /* Debug */,
+				A8C6E52A1D6E7AC2000BEF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8C6E52B1D6E7AC2000BEF84 /* Build configuration list for PBXNativeTarget "mmDrawerControlDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C6E52C1D6E7AC2000BEF84 /* Debug */,
+				A8C6E52D1D6E7AC2000BEF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8C6E4FE1D6E7AC2000BEF84 /* Project object */;
+}
