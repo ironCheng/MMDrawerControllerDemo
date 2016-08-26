@@ -28,12 +28,15 @@
     cController.view.backgroundColor = [UIColor greenColor];
     
     UINavigationController *tfNav = [[UINavigationController alloc] initWithRootViewController:aController];
+    UINavigationController *tfNav2 = [[UINavigationController alloc] initWithRootViewController:bController];
+    UINavigationController *tfNav3 = [[UINavigationController alloc] initWithRootViewController:cController];
+    
     tfNav.tabBarItem.title = @"a";
-    bController.tabBarItem.title = @"b";
-    cController.tabBarItem.title = @"c";
+    tfNav2.tabBarItem.title = @"b";
+    tfNav3.tabBarItem.title = @"c";
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    tabBarController.viewControllers = @[tfNav,bController,cController];
+    tabBarController.viewControllers = @[tfNav,tfNav2,tfNav3];
     
     //左边抽屉拉开的视图
     UIViewController *leftVC = [[UIViewController alloc] init];

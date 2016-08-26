@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     //加一个按钮，这个按钮是他MMDrawer官方给的。。
     self.navigationItem.leftBarButtonItem = [[MMDrawerBarButtonItem alloc]initWithTarget:self action:@selector(leftBtn)];
     // Do any additional setup after loading the view.
@@ -41,9 +42,13 @@
 - (void)leftBtn
 {
     //手动打开抽屉
-    [self.mm_drawerController openDrawerSide:MMDrawerSideLeft animated:YES completion:^(BOOL finished) {
-        
-    }];
+//    [self.mm_drawerController openDrawerSide:MMDrawerSideLeft animated:YES completion:^(BOOL finished) {
+//        
+//    }];
+    
+    //这个方法是先判断状态，打开的状态它就实行关闭 关闭的状态就打开
+    [self.mm_drawerController toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+
 }
 
 - (void)didReceiveMemoryWarning {
